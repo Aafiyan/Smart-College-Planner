@@ -1,74 +1,43 @@
-/* General Styling */
-body {
-    background-color: #121212;
-    color: #e0e0e0;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Registration Form */
+.form-container {
+    width: 40%;
+    margin: auto;
+    padding: 40px;
+    background: #1A1A1A;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.form-container h2 {
     text-align: center;
 }
 
-/* Header */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: #1A1A1A;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.header h1 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.btn {
-    padding: 10px 20px;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.signup {
-    background: #007BFF;
-}
-
-.login {
-    background: #444;
-}
-
-/* Main Content */
-.main-content {
-    height: 80vh;
+form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.main-content h2 {
-    font-size: 36px;
+label {
+    margin: 10px 0 5px;
 }
 
-.main-content p {
-    font-size: 18px;
-    color: #bbb;
-}
-
-/* Footer */
-.footer {
-    background: #1A1A1A;
-    padding: 20px;
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #222;
+    color: white;
 }
 
 .register-btn {
-    padding: 15px 25px;
     background: #28a745;
-    color: white;
-    font-size: 18px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: white;
+    font-size: 16px;
 }
